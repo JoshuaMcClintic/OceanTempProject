@@ -2,6 +2,7 @@ import csv
 from pathlib import Path
 
 # Define Input and Output paths for converting .asc files to .csv files
+# Change filepath to desired filepath. \\ is used for Windows systems, / for Mac or Linux
 infile_path = Path('C:\\filepath')
 outfile_path = Path('C:\\filepath')
 
