@@ -30,7 +30,9 @@ file, labeled "Unnamed Resource" with an icon with the word "DATA" at the top of
 me to a map with various tools and windows on the left-hand side. Clicking the item with the name of the dataset, I was 
 presented with three datasets: Monthly, Weekly, and another, which may represent the average temp for each month for the 
 whole of the dataset timeframe. The third set wouldn't provide much information for how the temperatures changed 
-throughout the years, and the Weekly set would provide more data than necessary, so the Monthly set was chosen.  
+throughout the years, and the Weekly set would provide more data than necessary, so the Monthly set was chosen. I couldn't 
+upload the over 100,000 kb full dataset, but running the python code, ensuring that the filepaths are set properly, 
+will get you the full dataset if you want it.  
 
 [Return to Directory](#directory)
 
