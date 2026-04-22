@@ -2,8 +2,8 @@ import csv
 from pathlib import Path
 
 # Define Input and Output paths for converting .asc files to .csv files
-infile_path = Path('C:\\Users\\joshu\\Downloads\\sst_1d_monthly\\sst_1d_monthly')
-outfile_path = Path('G:\\ExcelDatasets\\OceanTempData\\FlatFile')
+infile_path = Path('C:\\filepath')
+outfile_path = Path('C:\\filepath')
 
 
 # For each .asc file, open and read it, using spaces as delimiter; Write info to .csv file
@@ -15,7 +15,7 @@ for file in infile_path.iterdir():
 
 
 # Define input path for final file
-infile_path = Path('G:\\ExcelDatasets\\OceanTempData\\FlatFile')
+infile_path = Path('C:\\filepath')
 
 
 # Works only for files of name_format file_name_YYYYMMWW.abc where YYYY is 4-digit year, MM is 2-digit month, WW is
@@ -31,7 +31,7 @@ def file_dater(filename):
 
 
 # Define output path for final file
-full_file = 'G:\\ExcelDatasets\\OceanTempData\\FullDataset'
+full_file = 'C:\\filepath'
 
 
 # Code to take multiple ASCII art .csv files and convert into workable data format in single .csv file
